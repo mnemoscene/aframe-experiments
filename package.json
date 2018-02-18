@@ -1,0 +1,26 @@
+{
+  "name": "aframe-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sync": "cp -r ./node_modules/networked-aframe/server/ ./server/",
+    "start": "node ./server/easyrtc-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnemoscene/aframe-experiments.git"
+  },
+  "now": {
+    "alias": "aframe-experiments"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnemoscene/aframe-experiments/issues"
+  },
+  "homepage": "https://github.com/mnemoscene/aframe-experiments#readme",
+  "dependencies": {
+    "networked-aframe": "^0.5.1"
+  }
+}
